@@ -77,7 +77,7 @@ The client does not provide connection pooling. Each `Redis` instance
 has one and only one connection to the server, and use of this connection
 is protected by a mutex.
 
-As such it is heavilly recommended to use the [`connection_pool` gem](https://github.com/mperham/connection_pool), e.g.:
+As such it is heavily recommended to use the [`connection_pool` gem](https://github.com/mperham/connection_pool), e.g.:
 
 ```ruby
 module MyApp
@@ -363,7 +363,7 @@ gem "hiredis-client"
 ```
 
 If your application doesn't call `Bundler.require`, you may have
-to require it explictly:
+to require it explicitly:
 
 ```ruby
 require "hiredis-client"
